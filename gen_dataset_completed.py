@@ -3,7 +3,7 @@ import numpy as np
 import csv
 import glob
 
-label = "Parasitzed"
+label = "Parasitized"
 dirList = glob.glob("cell_images/"+label+"/*.png")
 file = open("csv/dataset.csv","a")
 
